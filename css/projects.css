@@ -126,19 +126,18 @@ body {
   margin: 0 auto;
 }
 
-/* Each project */
+
 .project {
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
   padding: 1rem;
-  background: #ffffff; /* Plain white background */
+  background: #ffffff; 
   color: #333333;
   border-radius: 5px;
   cursor: pointer;
 }
 
-/* Project details section (left side) */
 .project-details {
   flex: 1;
   padding-right: 20px;
@@ -155,25 +154,21 @@ body {
   line-height: 1.6;
 }
 
-/* Project image section (right side) */
-.project-image {
-  flex-basis: 50%; /* Adjust to allow image to take up more space */
-  display: flex;
-  justify-content: center; /* Center image */
-  overflow: hidden; /* Ensure hover effect stays within bounds */
-  border-radius: 8px;
+.project-image a {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px; 
 }
 
-/* Image styling */
 .project-image img {
-  width: 100%; /* Make image fill the container */
-  height: auto; /* Keep the image aspect ratio */
-  transition: transform 0.4s ease-in-out; /* Smooth hover effect */
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease-in-out; 
 }
 
-/* Hover effect on image */
-.project-image:hover img {
-  transform: scale(1.1); /* Slight zoom effect */
+
+.project-image a:hover img {
+  transform: scale(1.1); 
 }
 
 #footer {
